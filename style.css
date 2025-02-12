@@ -1,6 +1,10 @@
-img{
+  *{/*UNIVERSAL*/
+    margin: 0;/*MARGEM*/
+    padding: 0;/*esparçamento*/
+  }
+  img{ /*estilo tag imagem*/
     height: 92px; /*altura*/
-}
+  }
 a{
 text-decoration: none;/*decoração texto*/
 color:#1f1f1f; /*cor texto*/
@@ -8,14 +12,17 @@ font-size: 13px;/*tamanho fonte*/
 font-family: sans-serif;/*tipo da fonte*/
 }
 .botao-login{
-    background:#1a73e8;
-    color: white;
+    background:#1a73e8; /*cor do fundo*/
+    color: white; /*cor do texto*/
    padding: 13px 12px; /*espaçamento interno*/
-   border-radius: 500px;
+   border-radius: 500px; /*peso da fonte*/
    border-radius: 40px;/*raio da borda*/
 
 }
-.icone-produtos{
+.icone-produtos{ 
     width:24px ; /*largura*/
     fill:#444746 ;
+}
+footer{ /*seletor da tag FOOTER/RODAPÉ*/
+    background-color: #d2d2d2; /*cor de fundo*/
 }
